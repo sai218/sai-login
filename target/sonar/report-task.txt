@@ -1,0 +1,5 @@
+projectKey=com.maha:mahaLogin
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/com.maha:mahaLogin
+ceTaskId=AWsX4dtL14433iPMglkP
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWsX4dtL14433iPMglkP
