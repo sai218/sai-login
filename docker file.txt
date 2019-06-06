@@ -1,6 +1,6 @@
 FROM tomcat:7.0.93-jre8
 MAINTAINER 7794808362
 RUN apt-get update
-COPY mahaLogin-1.0.war /usr/local/tomcat/webapps/
+ADD https://s3.amazonaws.com/maha4iac/mahaLogin.war /usr/local/tomcat/webapps/
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
